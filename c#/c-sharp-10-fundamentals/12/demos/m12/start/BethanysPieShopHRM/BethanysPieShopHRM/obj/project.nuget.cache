@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WcvwewfdvSM59fxr98MEBHG9YkI8Nz8w3oh7Z1dtD0MONbOYm9HviR8bqMgzTZYKpEip4pjuFyrB+yiB/vQT5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kdub9\\Documents\\Learning\\c#\\c-sharp-10-fundamentals\\12\\demos\\m12\\start\\BethanysPieShopHRM\\BethanysPieShopHRM\\BethanysPieShopHRM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kdub9\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
