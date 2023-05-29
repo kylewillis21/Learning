@@ -1,0 +1,15 @@
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\bin\Debug\net6.0\HelloFromCSharp.exe
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\bin\Debug\net6.0\HelloFromCSharp.deps.json
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\bin\Debug\net6.0\HelloFromCSharp.runtimeconfig.json
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\bin\Debug\net6.0\HelloFromCSharp.dll
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\bin\Debug\net6.0\HelloFromCSharp.pdb
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\obj\Debug\net6.0\HelloFromCSharp.csproj.AssemblyReference.cache
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\obj\Debug\net6.0\HelloFromCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\obj\Debug\net6.0\HelloFromCSharp.AssemblyInfoInputs.cache
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\obj\Debug\net6.0\HelloFromCSharp.AssemblyInfo.cs
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\obj\Debug\net6.0\HelloFromCSharp.csproj.CoreCompileInputs.cache
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\obj\Debug\net6.0\HelloFromCSharp.dll
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\obj\Debug\net6.0\refint\HelloFromCSharp.dll
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\obj\Debug\net6.0\HelloFromCSharp.pdb
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\obj\Debug\net6.0\HelloFromCSharp.genruntimeconfig.cache
+C:\Users\kdub9\Documents\Learning\c#\HelloFromCSharp\HelloFromCSharp\obj\Debug\net6.0\ref\HelloFromCSharp.dll
