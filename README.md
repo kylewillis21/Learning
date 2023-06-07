@@ -4,7 +4,7 @@ Topics are subject to change
 
 ## Topics Training in
 - ~~C#~~
-- ~~.NET Core~~
+- ~~.NET Core Fundamentals~~
 - ~~SQL~~ 
 - HTML and CSS
 - ASP.NET
