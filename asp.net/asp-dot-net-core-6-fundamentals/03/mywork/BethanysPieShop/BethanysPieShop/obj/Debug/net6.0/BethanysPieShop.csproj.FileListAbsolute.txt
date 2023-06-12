@@ -24,3 +24,7 @@ C:\Users\kdub9\Documents\Learning\asp.net\asp-dot-net-core-6-fundamentals\03\myw
 C:\Users\kdub9\Documents\Learning\asp.net\asp-dot-net-core-6-fundamentals\03\mywork\BethanysPieShop\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.pdb
 C:\Users\kdub9\Documents\Learning\asp.net\asp-dot-net-core-6-fundamentals\03\mywork\BethanysPieShop\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.genruntimeconfig.cache
 C:\Users\kdub9\Documents\Learning\asp.net\asp-dot-net-core-6-fundamentals\03\mywork\BethanysPieShop\BethanysPieShop\obj\Debug\net6.0\ref\BethanysPieShop.dll
+C:\Users\kdub9\Documents\Learning\asp.net\asp-dot-net-core-6-fundamentals\03\mywork\BethanysPieShop\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.RazorAssemblyInfo.cache
+C:\Users\kdub9\Documents\Learning\asp.net\asp-dot-net-core-6-fundamentals\03\mywork\BethanysPieShop\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.RazorAssemblyInfo.cs
+C:\Users\kdub9\Documents\Learning\asp.net\asp-dot-net-core-6-fundamentals\03\mywork\BethanysPieShop\BethanysPieShop\bin\Debug\net6.0\libman.json
+C:\Users\kdub9\Documents\Learning\asp.net\asp-dot-net-core-6-fundamentals\03\mywork\BethanysPieShop\BethanysPieShop\bin\Debug\net6.0\BethanysPieShop.staticwebassets.runtime.json
