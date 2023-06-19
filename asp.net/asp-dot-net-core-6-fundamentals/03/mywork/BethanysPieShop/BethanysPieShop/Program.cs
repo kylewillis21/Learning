@@ -1,5 +1,6 @@
 using BethanysPieShop.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,5 +25,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapDefaultControllerRoute();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=home}/{action=index}/{id?}");
 DbInitializer.Seed(app);
 app.Run();
