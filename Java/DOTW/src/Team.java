@@ -29,69 +29,45 @@ public class Team {
         Player[] team = new Player[numQbs + numRbs + numWrs + numTes + numDef + numKs];
 
         for (int i = 1; i <= numQbs; i++) {
-            scanner.nextLine();
-            System.out.print("Enter the name for Quarterback #" + i + ": ");
-            String name = scanner.nextLine();
-
-            System.out.print("Enter how many points he had: ");
+            System.out.print("Enter how many points Quarterback #" + i + " had: ");
             double points = scanner.nextDouble();
 
-            team[i - 1] = new Quarterback(name, points);
+            team[i - 1] = new Quarterback(points);
         }
 
         for (int i = 1; i <= numRbs; i++) {
-            scanner.nextLine();
-            System.out.print("Enter the name for Runningback #" + i + ": ");
-            String name = scanner.nextLine();
-
-            System.out.print("Enter how many points he had: ");
+            System.out.print("Enter how many points Runningback #" + i + " had: ");
             double points = scanner.nextDouble();
 
-            team[numQbs + i - 1] = new Runningback(name, points);
+            team[numQbs + i - 1] = new Runningback(points);
         }
 
         for (int i = 1; i <= numWrs; i++) {
-            scanner.nextLine();
-            System.out.print("Enter the name for Wide Receiver #" + i + ": ");
-            String name = scanner.nextLine();
-
-            System.out.print("Enter how many points he had: ");
+            System.out.print("Enter how many points Wide Receiver #" + i + " had: ");
             double points = scanner.nextDouble();
 
-            team[numQbs + numRbs + i - 1] = new WideReceiver(name, points);
+            team[numQbs + numRbs + i - 1] = new WideReceiver(points);
         }
 
         for (int i = 1; i <= numTes; i++) {
-            scanner.nextLine();
-            System.out.print("Enter the name for Tight End #" + i + ": ");
-            String name = scanner.nextLine();
-
-            System.out.print("Enter how many points he had: ");
+            System.out.print("Enter how many points Tight End #" + i + " had: ");
             double points = scanner.nextDouble();
 
-            team[numQbs + numRbs + numWrs + i - 1] = new TightEnd(name, points);
+            team[numQbs + numRbs + numWrs + i - 1] = new TightEnd(points);
         }
 
         for (int i = 1; i <= numDef; i++) {
-            scanner.nextLine();
-            System.out.print("Enter the name for Defense #" + i + ": ");
-            String name = scanner.nextLine();
-
-            System.out.print("Enter how many points they had: ");
+            System.out.print("Enter how many points Defense #" + i + " had: ");
             double points = scanner.nextDouble();
 
-            team[numQbs + numRbs + numWrs + numTes + i - 1] = new Defense(name, points);
+            team[numQbs + numRbs + numWrs + numTes + i - 1] = new Defense(points);
         }
 
         for (int i = 1; i <= numKs; i++) {
-            scanner.nextLine();
-            System.out.print("Enter the name for Kicker #" + i + ": ");
-            String name = scanner.nextLine();
-
-            System.out.print("Enter how many points he had: ");
+            System.out.print("Enter how many points Kicker #" + i + " had: ");
             double points = scanner.nextDouble();
 
-            team[numQbs + numRbs + numWrs + numTes + numDef + i - 1] = new Kicker(name, points);
+            team[numQbs + numRbs + numWrs + numTes + numDef + i - 1] = new Kicker(points);
         }
 
         return team;
@@ -127,47 +103,47 @@ public class Team {
             if (player.getClass() == Quarterback.class && !qbdone) {
                 qb = player.getPoints();
                 qbdone = true;
-                System.out.println("QB: " + player.getName() + " " + player.getPoints());
+                System.out.println("QB: " + player.getPoints());
             }
             else if (player.getClass() == Runningback.class && !rb1done) {
                 rb1 = player.getPoints();
                 rb1done = true;
-                System.out.println("RB1: " + player.getName() + " " + player.getPoints());
+                System.out.println("RB1: " + player.getPoints());
             }
             else if (player.getClass() == Runningback.class && !rb2done) {
                 rb2 = player.getPoints();
                 rb2done = true;
-                System.out.println("RB2: " + player.getName() + " " + player.getPoints());
+                System.out.println("RB2: " + player.getPoints());
             }
             else if (player.getClass() == WideReceiver.class && !wr1done) {
                 wr1 = player.getPoints();
                 wr1done = true;
-                System.out.println("WR1: " + player.getName() + " " + player.getPoints());
+                System.out.println("WR1: " + player.getPoints());
             }
             else if (player.getClass() == WideReceiver.class && !wr2done) {
                 wr2 = player.getPoints();
                 wr2done = true;
-                System.out.println("WR2: " + player.getName() + " " + player.getPoints());
+                System.out.println("WR2: " + player.getPoints());
             }
             else if (player.getClass() == TightEnd.class && !tedone) {
                 te = player.getPoints();
                 tedone = true;
-                System.out.println("TE: " + player.getName() + " " + player.getPoints());
+                System.out.println("TE: " + player.getPoints());
             }
             else if (player.getClass() == Defense.class && !defdone) {
                 def = player.getPoints();
                 defdone = true;
-                System.out.println("DEF: " + player.getName() + " " + player.getPoints());
+                System.out.println("DEF: " + player.getPoints());
             }
             else if (player.getClass() == Kicker.class && !kdone) {
                 k = player.getPoints();
                 kdone = true;
-                System.out.println("K: " + player.getName() + " " + player.getPoints());
+                System.out.println("K: " + player.getPoints());
             }
             else if (!flexdone && (player.getClass() == Runningback.class || player.getClass() == WideReceiver.class || player.getClass() == TightEnd.class)) {
                 flex = player.getPoints();
                 flexdone = true;
-                System.out.println("FLEX: " + player.getName() + " " + player.getPoints());
+                System.out.println("FLEX: " + player.getPoints());
             }
         }
 

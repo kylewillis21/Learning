@@ -1,28 +1,18 @@
 package Player;
 
 public class Player implements Comparable<Player> {
-    private String name;
     private double points;
 
-    public Player(String name, double points) {
-        this.name = name;
+    public Player(double points) {
         this.points = points;
     }
 
     // Getters
-    public String getName() {
-        return name;
-    }
-
     public double getPoints() {
         return points;
     }
 
     // Setters
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public void setPoints(double points) {
         this.points = points;
     }
