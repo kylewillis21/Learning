@@ -1,7 +1,7 @@
 package Player;
 
 public class Player implements Comparable<Player> {
-    private double points;
+    private double points = 0;
 
     public Player(double points) {
         this.points = points;
